@@ -1,0 +1,16 @@
+[package]
+version = "0.1.0"
+title = "OpenXR Controller Retargeters for Isaac Lab"
+description = "OpenXR motion controller retargeters for VR teleoperation in Isaac Lab via SteamVR/ALVR."
+repository = ""
+category = "robotics"
+keywords = ["robotics", "teleoperation", "vr", "openxr", "alvr", "steamvr"]
+
+[dependencies]
+"isaaclab" = {}
+
+[core]
+reloadable = false
+
+[[python.module]]
+name = "isaaclab_openxr_retargeters"
